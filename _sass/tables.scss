@@ -32,3 +32,27 @@ table tr th :first-child, table tr td :first-child {
 table tr th :last-child, table tr td :last-child {
     margin: 0;
 }
+.blog-list {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+.blog-list tr,
+.blog-list tr:nth-child(2n) {
+    border: none;
+    background: transparent;
+}
+
+.blog-list th,
+.blog-list td {
+    border: none;
+    background: transparent;
+    padding: 0px 0;
+}
+
+.blog-list td:last-child {
+    width: 90px;
+    white-space: nowrap;
+    padding-left: 20px;
+}
