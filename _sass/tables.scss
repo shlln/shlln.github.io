@@ -56,3 +56,28 @@ table tr th :last-child, table tr td :last-child {
     white-space: nowrap;
     padding-left: 20px;
 }
+
+.cve-list {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+.cve-list tr,
+.cve-list tr:nth-child(2n) {
+    border: none;
+    background: transparent;
+}
+
+.cve-list th,
+.cve-list td {
+    border: none;
+    background: transparent;
+    padding: 5px 0;
+}
+
+.cve-list td:last-child {
+    width: 550px;
+    white-space: nowrap;
+    padding-left: 20px;
+}
