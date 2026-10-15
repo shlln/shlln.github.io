@@ -58,7 +58,7 @@ table tr th :last-child, table tr td :last-child {
 }
 
 .cve-list {
-    width: 100%;
+    width: auto;
     margin: 15px 0;
     border-collapse: collapse;
 }
@@ -74,10 +74,9 @@ table tr th :last-child, table tr td :last-child {
     border: none;
     background: transparent;
     padding: 5px 0;
+    white-space: nowrap;
 }
 
 .cve-list td:last-child {
-    width: 550px;
-    white-space: nowrap;
     padding-left: 20px;
 }
