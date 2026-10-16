@@ -23,22 +23,6 @@ Binary Exploitation, Firmware Security, Reverse Engineering
 </tr>
 <tr>
 	<td>
-        CVE-2026-109107
-    </td>
-    <td>
-        Wavlink
-    </td>
-</tr>
-<tr>
-	<td>
-        CVE-2026-109110
-    </td>
-    <td>
-        Wavlink
-    </td>
-</tr>
-<tr>
-	<td>
         CVE-2026-110958
     </td>
     <td>
