@@ -4,8 +4,8 @@ layout: post
 
 ## Blog
 
-{% for post in site.posts %}
 <table class="blog-list">
+{% for post in site.posts %}
 <tr>
     <td>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -14,5 +14,5 @@ layout: post
         {{ post.date | date: "%Y-%m-%d" }}
     </td>
 </tr>
-</table>
 {% endfor %}
+</table>
